@@ -9,13 +9,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
   text-align: center;
   height: 100vh;
-  color: black;
+  color: green;
 }
 
 #time {
@@ -35,4 +34,10 @@ h2 {
   #time {
     font-size: 6rem;
   }
+}
+h1.foot{
+    position: absolute;
+    bottom: 10px;
+    color:white;
+    font-size: 19px;
 }
