@@ -106,5 +106,5 @@ focus.addEventListener('blur', setFocus);
 // Run
 showTime();
 setBgGreet();
-getName();
-getFocus();
+// getName();
+// getFocus();
