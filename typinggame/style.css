@@ -1,0 +1,58 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #d4362a;
+}
+
+body, .quote-input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    background-color: #c8ff00;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 700px;
+    max-width:90%;
+}
+
+.timer{
+    position:absolute;
+    top:2rem;
+    font-size: 10rem;
+    color: coral;
+    font-weight: 700;
+}
+.quote-display{
+    margin-bottom:1rem;
+    margin-left: calc(1rem +2px);
+    margin-right: calc(1rem+2px);
+}
+
+.quote-input{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #c8ff00;
+    width:100%;
+    height: 8rem;
+    margin:auto;
+    resize:none;
+    padding:.5rem 1rem;
+    font-size:1rem;
+}
+.quote-input:focus{
+    border-color: black;
+
+}
+.correct{
+    color:green;
+}
+.incorrect{
+    color:red;
+}

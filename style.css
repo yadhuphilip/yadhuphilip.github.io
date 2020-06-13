@@ -41,3 +41,7 @@ h1.foot{
     color:white;
     font-size: 19px;
 }
+
+.typing h1{
+  color: black;
+}
